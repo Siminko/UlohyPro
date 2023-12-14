@@ -1,0 +1,7 @@
+C:\Users\simon\OneDrive\Počítač\uloha\forest\forest\bin\Debug\forest.exe.config
+C:\Users\simon\OneDrive\Počítač\uloha\forest\forest\bin\Debug\forest.exe
+C:\Users\simon\OneDrive\Počítač\uloha\forest\forest\bin\Debug\forest.pdb
+C:\Users\simon\OneDrive\Počítač\uloha\forest\forest\obj\Debug\forest.csproj.AssemblyReference.cache
+C:\Users\simon\OneDrive\Počítač\uloha\forest\forest\obj\Debug\forest.csproj.CoreCompileInputs.cache
+C:\Users\simon\OneDrive\Počítač\uloha\forest\forest\obj\Debug\forest.exe
+C:\Users\simon\OneDrive\Počítač\uloha\forest\forest\obj\Debug\forest.pdb
