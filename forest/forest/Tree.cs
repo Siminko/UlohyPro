@@ -10,7 +10,7 @@ namespace program
     class Tree : IOrganizmus
     {
         private double age; //year
-        private double radius, height;
+        public double radius, height;
         private static double widthIncrement = 0.01; // mm/year
         private static double heightIncrement = 2.0; // mm/year
         public static double daysOfYear = 365.25;

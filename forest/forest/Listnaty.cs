@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace program
 {
-    class Listnaty : Tree
+    class  Listnaty : Tree
     {
         public Listnaty()
         {
@@ -16,6 +16,13 @@ namespace program
         {
 
         }
+        public new bool Rastie()
+        {
+            radius == 0.01;
+            height == 1;
+
+        }
 
     }
 }
+
