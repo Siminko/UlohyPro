@@ -1,4 +1,5 @@
-﻿using System;
+﻿using forest;
+using System;
 using System.Collections.Generic;
 
 namespace program
@@ -22,13 +23,20 @@ namespace program
             }
             Console.WriteLine("Hello world!");
 
+            
+
             double polomer;
             double vyska;
+            double tip;
+            
 
-          /*  double konare1;
-            double konare2;
-            double konare3;
-            double konare4;*/
+            /*  double konare1;
+              double konare2;
+              double konare3;
+              double konare4;*/
+           
+            Console.WriteLine("Typ stromu: ");
+            double.TryParse(Console.ReadLine(), out tip);
 
             Console.Write("Polomer : ");
             double.TryParse(Console.ReadLine(), out polomer);
@@ -37,6 +45,12 @@ namespace program
             double.TryParse(Console.ReadLine(), out vyska);
 
             double v = 1.0 / 3.0 * Math.PI * (polomer * polomer) * vyska;
+
+            if (tip == Listnat) 
+            {
+
+            }
+
 
             /*  Console.Write("Pocet Konarov 1: ");
                double.TryParse(Console.ReadLine(), out konare1);

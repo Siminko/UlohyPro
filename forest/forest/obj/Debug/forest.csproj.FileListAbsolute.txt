@@ -5,3 +5,8 @@ C:\Users\simon\OneDrive\Počítač\uloha\forest\forest\obj\Debug\forest.csproj.A
 C:\Users\simon\OneDrive\Počítač\uloha\forest\forest\obj\Debug\forest.csproj.CoreCompileInputs.cache
 C:\Users\simon\OneDrive\Počítač\uloha\forest\forest\obj\Debug\forest.exe
 C:\Users\simon\OneDrive\Počítač\uloha\forest\forest\obj\Debug\forest.pdb
+C:\Users\0b_kuruc_s\Source\Repos\UlohyPro\forest\forest\obj\Debug\forest.csproj.AssemblyReference.cache
+C:\Users\0b_kuruc_s\Source\Repos\UlohyPro\forest\forest\obj\Debug\forest.csproj.SuggestedBindingRedirects.cache
+C:\Users\0b_kuruc_s\Source\Repos\UlohyPro\forest\forest\obj\Debug\forest.csproj.CoreCompileInputs.cache
+C:\Users\0b_kuruc_s\Source\Repos\UlohyPro\forest\forest\obj\Debug\forest.exe
+C:\Users\0b_kuruc_s\Source\Repos\UlohyPro\forest\forest\obj\Debug\forest.pdb

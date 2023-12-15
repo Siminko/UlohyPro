@@ -1,4 +1,5 @@
-﻿using System;
+﻿using forest;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace program
 {
-    class Ihlicnaty : Tree
+    class Ihlicnaty : Tree, IOrganizmus
     {
         public Ihlicnaty()
         {
@@ -15,6 +16,10 @@ namespace program
         ~Ihlicnaty()
         {
 
+        }
+        public void Rastie()
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Baubab.cs" />
     <Compile Include="Forest.cs" />
     <Compile Include="Ihlicnaty.cs" />
     <Compile Include="Listnaty.cs" />

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using forest;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace program
 {
-    class Tree
+    class Tree : IOrganizmus
     {
         private double age; //year
         private double radius, height;
@@ -36,6 +37,11 @@ namespace program
         public string GetInfo()
         {
             return $"---------- Tree info ----------\nAge = {this.age}\nRadius = {this.radius}\nHeight = {this.height}\n";
+        }
+
+        public void Rastie()
+        {
+            throw new NotImplementedException();
         }
     }
 }
