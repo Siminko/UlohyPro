@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace program
+namespace forest
 {
     class Ihlicnaty : Tree, IOrganizmus
     {
@@ -21,5 +21,11 @@ namespace program
         {
             throw new NotImplementedException();
         }
+        public virtual double Obsah()
+        {
+            Volume = Math.PI * radius * radius * height * (1.0 / 3.0);
+            return Volume;
+        } 
+
     }
 }

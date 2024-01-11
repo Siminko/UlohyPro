@@ -19,6 +19,11 @@ namespace forest
         {
 
         }
+        public virtual double Obsah()
+        {
+             Volume = Math.PI * radius * radius * height);
+             return Volume;
+        } 
 
 
     }

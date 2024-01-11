@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace forest
 {
-    internal interface Interface1
+    internal interface IOrganizmus
     {
+        public void Growing();
+        public void GetInfo();
+        public void Rastie();
+
+        
+        
     }
 }

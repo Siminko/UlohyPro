@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace program
+namespace forest
 {
     class  Listnaty : Tree
     {
@@ -22,6 +22,11 @@ namespace program
             height == 1;
 
         }
+            public virtual double Obsah()
+        {
+            Volume = Math.PI * radius * radius * height * (1.0 / 3.0);
+             return Volume;
+        } 
 
     }
 }

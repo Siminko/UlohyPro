@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace program
+namespace forest
 {
     internal class Program
     {
@@ -27,7 +27,7 @@ namespace program
 
             double polomer;
             double vyska;
-            double tip;
+            
             
 
             /*  double konare1;
@@ -35,8 +35,8 @@ namespace program
               double konare3;
               double konare4;*/
            
-            Console.WriteLine("Typ stromu: ");
-            double.TryParse(Console.ReadLine(), out tip);
+            Console.WriteLine("Druh stromu: ihlicnaty (ihl), listnaty (list), baobab (baob)");
+             b = Console.ReadLine();
 
             Console.Write("Polomer : ");
             double.TryParse(Console.ReadLine(), out polomer);
@@ -86,14 +86,39 @@ namespace program
 
                 v = v + k;
             }
+                  
+            if (b == "ihl" || "ihlicnaty")
+            {
+                Tree ihli = new Ihlicnaty(radius, height);
+                Console.WriteLine($"\nObjem = {ihli.Obsah()}\n");
+              
+            }
+            else if (b == "list" || "listnaty")
+            {
+                Tree listn = new Listnaty(radius, height);
+                Console.WriteLine($"\nObjem = {listn.Obsah()}\n");
+               
+            }
+            else if (b == "baob" || "baobab")
+            {
+                Tree baob = new Baobab(radius, height);
+                Console.WriteLine($"\nObjem = {baob.Obsah()}\n");
 
+              
+            }
+            else
+            {
+                Console.WriteLine("Zly vstup");
+            }
+
+            Console.ReadLine();
 
             
 
             
             Console.WriteLine(v);
 
-            Console.ReadKey();
+        
 
 
 
