@@ -8,11 +8,8 @@ namespace forest
 {
     internal interface IOrganizmus
     {
-        public void Growing();
-        public void GetInfo();
-        public void Rastie();
-
-        
-        
+        void Growing();
+        void GetInfo();
+        void Rastie();
     }
 }
