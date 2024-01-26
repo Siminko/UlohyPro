@@ -9,21 +9,22 @@ namespace forest
 {
     class Ihlicnaty : Tree, IOrganizmus
     {
-        public Ihlicnaty()
+        public Ihlicnaty(double _radius, double _height)
         {
-
+            radius = _radius;
+            height = _height; 
         }
         ~Ihlicnaty()
         {
 
         }
-        public void Rastie()
+        public override void Rastie()
         {
             throw new NotImplementedException();
         }
         public virtual double Obsah()
         {
-            Volume = Math.PI * radius * radius * height * (1.0 / 3.0);
+            double Volume = Math.PI * radius * radius * height * (1.0 / 3.0);
             return Volume;
         } 
 

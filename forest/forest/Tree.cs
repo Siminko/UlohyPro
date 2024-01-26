@@ -14,6 +14,7 @@ namespace forest
         private static double widthIncrement = 0.01; // mm/year
         private static double heightIncrement = 2.0; // mm/year
         public static double daysOfYear = 365.25;
+       
 
         public Tree()
         {
@@ -39,7 +40,12 @@ namespace forest
             return $"---------- Tree info ----------\nAge = {this.age}\nRadius = {this.radius}\nHeight = {this.height}\n";
         }
 
-        public void Rastie()
+        public virtual void Rastie()
+        {
+            throw new NotImplementedException();
+        }
+
+        void IOrganizmus.GetInfo()
         {
             throw new NotImplementedException();
         }

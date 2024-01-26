@@ -1,5 +1,4 @@
-﻿using program;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,11 +8,10 @@ namespace forest
 {
     class Baubab : Tree
     {
-        public Baubab()
+        public Baubab(double _radius, double _height)
         {
-            double vyskaB = 0;
-            double radiusB = 0;
-           
+            radius = _radius;
+            height = _height;
         }
         ~Baubab()
         {
@@ -21,8 +19,8 @@ namespace forest
         }
         public virtual double Obsah()
         {
-             Volume = Math.PI * radius * radius * height);
-             return Volume;
+            double Volume = Math.PI * radius * radius * height;
+            return Volume;
         } 
 
 

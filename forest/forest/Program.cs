@@ -6,7 +6,14 @@ namespace forest
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static int b;
+
+        private static void Main(string[] args)
+        {
+            Main(args, b);
+        }
+
+        static void Main(string[] args, int b)
         {
             Forest forest = new Forest();
             forest.PlantTrees(10);
@@ -36,7 +43,7 @@ namespace forest
               double konare4;*/
            
             Console.WriteLine("Druh stromu: ihlicnaty (ihl), listnaty (list), baobab (baob)");
-             b = Console.ReadLine();
+            string typStromu = Console.ReadLine();
 
             Console.Write("Polomer : ");
             double.TryParse(Console.ReadLine(), out polomer);
@@ -46,11 +53,7 @@ namespace forest
 
             double v = 1.0 / 3.0 * Math.PI * (polomer * polomer) * vyska;
 
-            if (tip == Listnat) 
-            {
-
-            }
-
+            
 
             /*  Console.Write("Pocet Konarov 1: ");
                double.TryParse(Console.ReadLine(), out konare1);
@@ -71,8 +74,8 @@ namespace forest
              double k3 = 1.0 / 3.0 * Math.PI * (konare3 * konare3) * vyska;
              double k4 = 1.0 / 3.0 * Math.PI * (konare4 * konare4) * vyska;*/
 
-            double vyskaK;
-            double Radius;
+            double vyskaK = 0;
+            double Radius = 0;
 
             for (int i = 0; i < 4; i++)
             {
@@ -86,25 +89,25 @@ namespace forest
 
                 v = v + k;
             }
-                  
-            if (b == "ihl" || "ihlicnaty")
+
+            if (typStromu == "ihl" || typStromu == "ihlicnaty")
             {
-                Tree ihli = new Ihlicnaty(radius, height);
+                Ihlicnaty ihli = new Ihlicnaty(Radius, vyskaK);
                 Console.WriteLine($"\nObjem = {ihli.Obsah()}\n");
-              
+
             }
-            else if (b == "list" || "listnaty")
+            else if (typStromu == "list" || typStromu == "listnaty")
             {
-                Tree listn = new Listnaty(radius, height);
+                Listnaty listn = new Listnaty(Radius, vyskaK);
                 Console.WriteLine($"\nObjem = {listn.Obsah()}\n");
-               
+
             }
-            else if (b == "baob" || "baobab")
+            else if (typStromu == "baob" || typStromu == "baobab")
             {
-                Tree baob = new Baobab(radius, height);
+                Baubab baob = new Baubab(Radius, vyskaK);
                 Console.WriteLine($"\nObjem = {baob.Obsah()}\n");
 
-              
+
             }
             else
             {

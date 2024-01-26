@@ -10,3 +10,6 @@ C:\Users\0b_kuruc_s\Source\Repos\UlohyPro\forest\forest\obj\Debug\forest.csproj.
 C:\Users\0b_kuruc_s\Source\Repos\UlohyPro\forest\forest\obj\Debug\forest.csproj.CoreCompileInputs.cache
 C:\Users\0b_kuruc_s\Source\Repos\UlohyPro\forest\forest\obj\Debug\forest.exe
 C:\Users\0b_kuruc_s\Source\Repos\UlohyPro\forest\forest\obj\Debug\forest.pdb
+C:\Users\0b_kuruc_s\source\repos\UlohyPro\forest\forest\bin\Debug\forest.exe.config
+C:\Users\0b_kuruc_s\source\repos\UlohyPro\forest\forest\bin\Debug\forest.exe
+C:\Users\0b_kuruc_s\source\repos\UlohyPro\forest\forest\bin\Debug\forest.pdb

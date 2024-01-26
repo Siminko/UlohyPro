@@ -8,9 +8,12 @@ namespace forest
 {
     class  Listnaty : Tree
     {
-        public Listnaty()
-        {
+        public double Volume;
 
+        public Listnaty(double _radius, double _height)
+        {
+            radius = _radius;
+            height = _height;
         }
         ~Listnaty()
         {
@@ -18,14 +21,15 @@ namespace forest
         }
         public new bool Rastie()
         {
-            radius == 0.01;
-            height == 1;
+            radius = 0.01;
+            height = 1;
+            return true;
 
         }
             public virtual double Obsah()
         {
             Volume = Math.PI * radius * radius * height * (1.0 / 3.0);
-             return Volume;
+            return Volume;
         } 
 
     }

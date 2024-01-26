@@ -46,6 +46,7 @@
     <Compile Include="Baubab.cs" />
     <Compile Include="Forest.cs" />
     <Compile Include="Ihlicnaty.cs" />
+    <Compile Include="IOrganizmus.cs" />
     <Compile Include="Listnaty.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
