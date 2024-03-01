@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.vsidx
+/.vs/UlohyPro/v17/.wsuo
+/.vs/slnx.sqlite
+/.vs/UlohyPro/FileContentIndex/ff6de239-55c0-483e-a576-c80db29395c5.vsidx
